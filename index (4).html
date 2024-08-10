@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoe Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Alienaac</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="products">
+            <h2>Our Shoes</h2>
+            <div class="product">
+                <img src="https://www.boredpanda.com/blog/wp-content/uploads/2023/02/63f48236b76b0_weird-shoes.jpg" alt="Linda Air">
+                <h3>Shoe 1</h3>
+                <p>$50.00</p>
+                <button onclick="addToCart('Shoe 1')">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://theshoesnobblog.com/wp-content/uploads/2023/03/InShot_20230315_100532616-1000x667.jpg" alt="Boots">
+                <h3>Shoe 2</h3>
+                <p>$60.00</p>
+                <button onclick="addToCart('Shoe 2')">Add to Cart</button>
+            </div>
+            <!-- Add more shoes as needed -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Shoe Store. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
